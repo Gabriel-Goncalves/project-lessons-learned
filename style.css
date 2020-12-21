@@ -1,0 +1,136 @@
+body {
+  background-color: rgb(253 , 251 , 251);
+  padding: 0;
+  margin: 0;
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(30, 41, 46);
+  padding-left: 10px;
+}
+
+.cabecalho h1 {
+  color: white;
+}
+
+.header-nav li{
+  margin-right: 20px;
+  display: inline-block;
+  list-style: none;
+}
+
+
+a{
+  text-decoration: none;
+}
+.main-content {
+  margin-top: 100px;
+}
+
+.foto-tables {
+  display: flex;
+  justify-content: space-around
+}
+
+#minha_foto {
+  width: 15%;
+  display: block;
+  margin: 10px;
+  border: 3px solid rgb(102 , 0 , 0);
+}
+
+.footer {
+  display: flex;
+  background-color: rgb(30, 41, 46);
+  justify-content: space-between;
+  color: white;
+  padding: 2px 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.footer ul {
+  margin-right: 50px;
+}
+
+.footer li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer h4 {
+  font-size: 0.9em;
+}
+
+a:link {
+  color: wheat;
+}
+
+a:visited {
+   color: lightblue;
+}
+
+a:hover {
+   color: white;
+   font-size: 1.2em;
+}
+
+a:active {
+   color: blue;
+}
+
+/* 
+#rodape {
+  background-color: lightgray;
+}
+
+.descricao {
+  text-align: justify;
+  font-size: 1.2em;
+  color: blue;
+  line-height: 20px;
+  font-family: Oswald, sans-serif;
+}
+
+.tabela-esquerda {
+  float: left;
+  width: 30%;
+  clear: both;
+  margin-left: 5%;
+  margin-right: 2%;
+}
+
+.tabela-direita {
+  float: right;
+  width: 30%;
+  margin-right: 30%;
+}
+
+.section-table {
+  clear: both;
+  padding-top: 30px;
+  margin-left: 5%;
+  margin-top: 50px;
+}
+
+.listas-aprendizagem {
+  margin-top: 50px;
+}
+
+.nav_links {
+  margin-top: 100px;
+}
+
+.nav_links a {
+  margin-right: 30px;
+} */
